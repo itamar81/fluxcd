@@ -1,5 +1,6 @@
 bases:
 - ../base
 namePrefix: dev-
-patches:
-  - replica-count.yaml
+replicas:
+- name: nginx-deployment
+  count: 1
