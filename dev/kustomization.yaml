@@ -3,4 +3,4 @@ bases:
 namePrefix: dev-
 replicas:
 - name: nginx-deployment
-  count: 1
+  count: 2
